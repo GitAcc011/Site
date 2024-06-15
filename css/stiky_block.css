@@ -1,0 +1,16 @@
+.sticky {
+    position: sticky;
+    top: 0;
+}
+/* test */
+.map{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform .3s, transform .3s;
+    -moz-transition: transform .3s;
+    transition: -ms-transform .3s, -webkit-transform .3s, transform .3s;
+}
