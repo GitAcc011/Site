@@ -1,0 +1,18 @@
+.sly {
+    display:none;
+    background-color:rgb(237, 237, 237);
+    border:hsl(0, 0%, 75%) solid 1px;
+    color:#444;
+    height:auto;
+    margin:5px 0;
+    padding:10px;
+    text-align: justify;
+  }
+  
+  .show {
+    cursor:pointer;
+    color: #4C6695;
+    margin:1px 0 0;
+  }
+  .show:hover{color:green;}
+  .active {color:green;}
